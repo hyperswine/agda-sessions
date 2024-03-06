@@ -157,7 +157,7 @@ lookup-test₂ = {!!}
 data Vec (A : Set) : Nat → Set where
   []v : Vec A 0
   _::v_ : {n : Nat} → A → Vec A n → Vec A (suc n)
-  
+
 infixr 15 _::v_
 
 {-

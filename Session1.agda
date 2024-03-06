@@ -656,7 +656,7 @@ const : {A B : Set} → A → B → A
 const a b = a
 ambiguous-function : Bool → ⊥ → Nat
 ambiguous-function bool bot =
-  {!const 5 (if bool then ⊥-elim bot else ⊥-elim bot)!}
+  const 5 (if bool then ⊥-elim bot else ⊥-elim bot)
 {-
 Put the cursor in the hole above and press C-c C-space to replace it with it's contents. Reload.
 Figure out why Agda cannot possibly figure out the type of the if-expression. (Could you infer it?)

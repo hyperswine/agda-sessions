@@ -6,5 +6,5 @@
 (show-paren-mode)
 
 ;; the default monospace font on Ubuntu doesn't display unicode characters correctly,
-;; this one is much better. 
+;; this one is much better.
 (set-face-attribute 'default t :font "DejaVu Sans Mono Book")

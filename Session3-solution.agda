@@ -31,7 +31,7 @@ size tmTrue = 1
 size tmFalse = 1
 size (tmIf t t1 t2) = 1 + size t + size t1 + size t2
 size tmZero = 1
-size (tmSucc t) = suc (size t) 
+size (tmSucc t) = suc (size t)
 size (tmPred t) = suc (size t)
 size (tmIsZero t) = suc (size t)
 

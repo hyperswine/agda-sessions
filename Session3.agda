@@ -80,7 +80,7 @@ test-eval1 = {!!}
 --=================================
 
 -- As an exercise, add new syntactic forms and evaluation rules for natural numbers
--- to the definitions above (see TAPL p. 41). Also add extra cases to the other 
+-- to the definitions above (see TAPL p. 41). Also add extra cases to the other
 -- functions so that everything typechecks again. You will need to define a new
 -- datatype IsNumValue : Term → Set that describes when a term is a numeric value.
 --   (When making changes, it is best to comment out all that follows, to make Agda
